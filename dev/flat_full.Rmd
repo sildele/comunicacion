@@ -41,8 +41,6 @@ pkgload::load_all(path = here::here(), export_all = FALSE)
 # You will be able to read your example data file in each of your function examples and tests as follows
 datafile <- system.file("toy_evyth.rds", package = "comunicacion")
 toy_evyth <- readRDS(datafile)
-
-toy_evyth
 ```
 
 

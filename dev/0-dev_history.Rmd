@@ -52,7 +52,16 @@ usethis::use_news_md()
 usethis::use_pipe()
 ```
 
+
+```{r}
+## Cargo dataset al paquete
+#usethis::use_data_raw()
+
+### Documento la base
+usethis::use_r("toy_evyth")
+```
 **From now, you will need to "inflate" your package at least once to be able to use the following commands. Let's go to your flat template, and come back here later if/when needed.**
+
 
 
 # Package development tools
@@ -74,7 +83,7 @@ usethis::use_github_action("test-coverage")
 gitlabr::use_gitlab_ci(type = "check-coverage-pkgdown")
 
 # Add new flat template
-fusen::add_flat_template("add")
+#fusen::add_flat_template("add")
 ```
 
 ## Use everytime needed

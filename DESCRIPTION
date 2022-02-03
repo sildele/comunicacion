@@ -10,6 +10,8 @@ Authors@R:
 Description: Herramientas para la comunicación de la Dirección Nacional de
     Mercados y Estadística.
 License: MIT + file LICENSE
+Depends: 
+    R (>= 2.10)
 Imports: 
     assertthat,
     ggplot2,
