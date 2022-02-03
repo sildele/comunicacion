@@ -1,3 +1,7 @@
 
 ^dev$
 ^LICENSE\.md$
+^README\.Rmd$
+^comunicacion\.Rproj$
+^\.Rproj\.user$
+^\.github$
