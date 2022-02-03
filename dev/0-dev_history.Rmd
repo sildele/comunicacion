@@ -42,7 +42,7 @@ usethis::git_vaccinate()
 
 ```{r, eval=FALSE}
 # README
-usethis::use_readme_rmd()
+usethis::use_readme_md()
 # Code of Conduct
 #usethis::use_code_of_conduct("contact@fake.com")
 # NEWS
