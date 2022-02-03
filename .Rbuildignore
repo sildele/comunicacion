@@ -5,3 +5,8 @@
 ^comunicacion\.Rproj$
 ^\.Rproj\.user$
 ^\.github$
+^\.gitlab-ci\.yml$
+^ci/lib$
+^_pkgdown\.yml$
+^docs$
+^pkgdown$

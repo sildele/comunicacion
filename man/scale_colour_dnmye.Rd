@@ -30,12 +30,18 @@ toy_evyth <- readRDS(datafile)
 
 toy_evyth \%>\% 
   dplyr::mutate(periodo = as.factor(paste0(anio, trimestre)),
-                region_destino = factor(region_destino, labels = c("Ciudad de Buenos Aires", "Provincia de Buenos Aires - Partidos del GBA",
-                                                                   "Provincia de Buenos Aires - Resto", "Centro", "Litoral", "Norte", "Cuyo",
-                                                                   "Patagonia"))) \%>\% 
+                region_destino = factor(region_destino, 
+                                        labels = c("Ciudad de Buenos Aires", 
+                                                   "Provincia de Buenos Aires - Partidos del GBA",
+                                                   "Provincia de Buenos Aires - Resto", "Centro", 
+                                                   "Litoral", 
+                                                   "Norte", "Cuyo", "Patagonia"))) \%>\% 
   dplyr::group_by(periodo, region_destino) \%>\% 
   dplyr::summarise(cantidad_personas = sum(pondera)) \%>\% 
-  ggplot2::ggplot(ggplot2::aes(x = periodo, y = cantidad_personas, colour = region_destino, group = region_destino)) +
+  ggplot2::ggplot(ggplot2::aes(x = periodo, 
+                               y = cantidad_personas, 
+                               colour = region_destino, 
+                               group = region_destino)) +
   ggplot2::geom_line() +
   scale_colour_dnmye()
 }

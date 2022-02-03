@@ -47,6 +47,9 @@ usethis::use_readme_rmd()
 #usethis::use_code_of_conduct("contact@fake.com")
 # NEWS
 usethis::use_news_md()
+
+# Pipe
+usethis::use_pipe()
 ```
 
 **From now, you will need to "inflate" your package at least once to be able to use the following commands. Let's go to your flat template, and come back here later if/when needed.**
