@@ -2,7 +2,7 @@
 % Please edit documentation in R/dnmye_colores.R
 \name{dnmye_paletas}
 \alias{dnmye_paletas}
-\title{Función para extraer colores de la dnmye como colores hex}
+\title{Funcion para extraer colores de la dnmye como colores hex}
 \usage{
 dnmye_paletas(palette = "c10_todos", reverse = FALSE, ...)
 }
@@ -14,10 +14,10 @@ dnmye_paletas(palette = "c10_todos", reverse = FALSE, ...)
 \item{...}{Argumentos adicionales para definir con colorRampPalette()}
 }
 \value{
-Paleta de colores institucionales para la República de Argentina
+Paleta de colores institucionales para la Republica de Argentina
 }
 \description{
-Función para extraer colores de la dnmye como colores hex
+Funcion para extraer colores de la dnmye como colores hex
 }
 \examples{
 dnmye_paletas("c2_continuo")(3)

@@ -2,7 +2,7 @@
 % Please edit documentation in R/dnmye_colores.R
 \name{dnmye_colores}
 \alias{dnmye_colores}
-\title{Función para extraer colores de la dnmye como colores hex}
+\title{Funcion para extraer colores de la dnmye como colores hex}
 \usage{
 dnmye_colores(...)
 }
@@ -10,10 +10,10 @@ dnmye_colores(...)
 \item{...}{Nombre del color}
 }
 \value{
-Paleta de colores institucionales para la República de Argentina
+Paleta de colores institucionales para la Republica de Argentina
 }
 \description{
-Función para extraer colores de la dnmye como colores hex
+Funcion para extraer colores de la dnmye como colores hex
 }
 \examples{
 dnmye_colores()

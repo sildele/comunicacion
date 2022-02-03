@@ -3,6 +3,6 @@
 export("%>%")
 export(dnmye_colores)
 export(dnmye_paletas)
-export(scale_colour_dnmye)
+export(scale_color_dnmye)
 export(scale_fill_dnmye)
 importFrom(magrittr,"%>%")

@@ -46,17 +46,17 @@ toy_evyth
 ```
 
 
-# Función dnmye_colores
+# Funcion dnmye_colores ----
 <!--
-Creo función
+Creo funcion
 -->
 
 ```{r function-dnmye_colores}
-#' Función para extraer colores de la dnmye como colores hex
+#' Funcion para extraer colores de la dnmye como colores hex
 #'
 #' @param ... Nombre del color
 #' @return
-#' Paleta de colores institucionales para la República de Argentina
+#' Paleta de colores institucionales para la Republica de Argentina
 #' @export
 #'
 #' @examples
@@ -93,7 +93,7 @@ colores <- c(
   if (!is.null(cols) & is.numeric(cols)){
     
     assertthat::assert_that(unique(cols) %in% c(1:10), 
-                            msg = glue::glue("Los valores numéricos van de 1 a {length(dnmye_colores)}"))
+                            msg = glue::glue("Los valores numericos van de 1 a {length(dnmye_colores)}"))
     
     return(unname(colores[cols]))
   }
@@ -119,7 +119,7 @@ Creo testeos de resultados
 -->
 
 ```{r tests-dnmye_colores}
-test_that("Nombre de los valores numéricos usados en dnmye_colores", {
+test_that("Nombre de los valores numericos usados en dnmye_colores", {
   expect_true(dnmye_colores(1) == "#EE3D8F")
   expect_true(dnmye_colores(2) == "#F7941E")
   expect_true(dnmye_colores(3) == "#FFD100")
@@ -149,17 +149,17 @@ test_that("Nombre de los valores de texto usados en dnmye_colores", {
 
 
 <!--
-Creo Función
+Creo Funcion
 -->
 
 ```{r function-dnmye_paletas}
-#' Función para extraer colores de la dnmye como colores hex
+#' Funcion para extraer colores de la dnmye como colores hex
 #'
 #' @param palette Nombre de la paleta de colores en dnmye_paletas. Se puede optar por *c2_continuo*, *c2_contraste* o *c10_todos*
 #' @param reverse *TRUE* indica que la peleta debe ser invertida
 #' @param ... Argumentos adicionales para definir con colorRampPalette()
 #' @return
-#' Paleta de colores institucionales para la República de Argentina
+#' Paleta de colores institucionales para la Republica de Argentina
 #' @export
 #'
 #' @examples
@@ -201,7 +201,7 @@ Creo testeo de resultados
 
 
 <!--
-Creo función
+Creo funcion
 -->
 
 ```{r function-scale_color_dnmye}
@@ -217,14 +217,14 @@ Creo función
 #' @examples
 
 ### Funcion
-scale_colour_dnmye <- function(palette = "c10_todos", discrete = TRUE, reverse = FALSE, ...) {
+scale_color_dnmye <- function(palette = "c10_todos", discrete = TRUE, reverse = FALSE, ...) {
   
   pal <- dnmye_paletas(palette = palette, reverse = reverse)
 
   if (discrete) {
-    ggplot2::discrete_scale("colour", paste0("dnmye_", palette), palette = pal, ...)
+    ggplot2::discrete_scale("color", paste0("dnmye_", palette), palette = pal, ...)
   } else {
-    ggplot2::scale_color_gradientn(colours = pal(256), ...)
+    ggplot2::scale_color_gradientn(colors = pal(256), ...)
   }
 }
 ```
@@ -250,10 +250,10 @@ toy_evyth %>%
   dplyr::summarise(cantidad_personas = sum(pondera)) %>% 
   ggplot2::ggplot(ggplot2::aes(x = periodo, 
                                y = cantidad_personas, 
-                               colour = region_destino, 
+                               color = region_destino, 
                                group = region_destino)) +
   ggplot2::geom_line() +
-  scale_colour_dnmye()
+  scale_color_dnmye()
 ```
 
 <!--
@@ -263,7 +263,7 @@ Creo testeos de resultados
 
 
 <!--
-Creo función 
+Creo funcion 
 -->
 
 ```{r function-scale_fill_dnmye}
@@ -286,7 +286,7 @@ scale_fill_dnmye <- function(palette = "c10_todos", discrete = TRUE, reverse = F
   if (discrete) {
     ggplot2::discrete_scale("fill", paste0("dnmye_", palette), palette = pal, ...)
   } else {
-    ggplot2::scale_fill_gradientn(colours = pal(256), ...)
+    ggplot2::scale_fill_gradientn(colors = pal(256), ...)
   }
 }
 ```
