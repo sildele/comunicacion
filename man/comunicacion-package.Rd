@@ -6,11 +6,20 @@
 \alias{comunicacion-package}
 \title{comunicacion: DNMyE - Comunicación}
 \description{
-Herramientas para la comunicación de la Dirección Nacional de
-    Mercados y Estadística.
+Herramientas para la comunicación de la Dirección Nacional de Mercados y Estadística.
 }
 \author{
 \strong{Maintainer}: Pablo Tiscornia \email{ptiscornia@turismo.gob.ar} (\href{https://orcid.org/0000-0002-1565-9313}{ORCID})
+
+Authors:
+\itemize{
+  \item Juan Pablo Ruiz Nicolini \email{jruiznicolini@turismo.gob.ar} (\href{https://orcid.org/0000-0002-3138-6343}{ORCID})
+}
+
+Other contributors:
+\itemize{
+  \item Dirección Nacional de Mercados y Estadísticas Ministerio de Turismo y Deportes \email{estadisticas@turismo.gob.ar} [copyright holder]
+}
 
 }
 \keyword{internal}

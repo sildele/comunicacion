@@ -2,16 +2,27 @@ Package: comunicacion
 Title: DNMyE - Comunicación
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "Pablo",
+    c(person(given = "Pablo",
            family = "Tiscornia",
            role = c("aut", "cre"),
            email = "ptiscornia@turismo.gob.ar",
-           comment = c(ORCID = "0000-0002-1565-9313"))
+           comment = c(ORCID = "0000-0002-1565-9313")), 
+      person(given = "Juan Pablo",
+           family = "Ruiz Nicolini",
+           role = c("aut"),
+           email = "jruiznicolini@turismo.gob.ar",
+           comment = c(ORCID = "0000-0002-3138-6343")), 
+      person(given = "Dirección Nacional de Mercados y Estadísticas",
+           family = "Ministerio de Turismo y Deportes",
+           role = c("cph"),
+           email = "estadisticas@turismo.gob.ar")
+           )
 Description: Herramientas para la comunicación de la Dirección Nacional de
     Mercados y Estadística.
 License: MIT + file LICENSE
 Imports: 
     assertthat,
+    extrafont,
     ggplot2,
     glue,
     grDevices,

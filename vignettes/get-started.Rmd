@@ -40,7 +40,7 @@ and `system.file()` to read it in your examples.
 -->
 
 
-# Funcion dnmye_colores ----
+# Funcion dnmye_colores
 
 <!--
 Creo funcion
@@ -170,15 +170,4 @@ Create a chunk with 'development' actions
 
 These are only included in the present flat template file, their content will not be part of the package anywhere else.
 -->
-
-
-# Inflate your package
-
-You're one inflate from paper to box.
-Build your package from this very Rmd using `fusen::inflate()`
-
-- Verify your `"DESCRIPTION"` file has been updated
-- Verify your function is in `"R/"` directory
-- Verify your test is in `"tests/testthat/"` directory
-- Verify this Rmd appears in `"vignettes/"` directory
 
