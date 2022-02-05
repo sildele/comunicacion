@@ -25,6 +25,9 @@
     <loc>/news/index.html</loc>
   </url>
   <url>
+    <loc>/reference/Encode.html</loc>
+  </url>
+  <url>
     <loc>/reference/comunicacion-package.html</loc>
   </url>
   <url>
@@ -32,6 +35,9 @@
   </url>
   <url>
     <loc>/reference/dnmye_paletas.html</loc>
+  </url>
+  <url>
+    <loc>/reference/import_encode.html</loc>
   </url>
   <url>
     <loc>/reference/index.html</loc>
