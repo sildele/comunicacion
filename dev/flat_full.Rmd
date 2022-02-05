@@ -41,8 +41,6 @@ pkgload::load_all(path = here::here(), export_all = FALSE)
 # You will be able to read your example data file in each of your function examples and tests as follows
 datafile <- system.file("toy_evyth.rds", package = "comunicacion")
 toy_evyth <- readRDS(datafile)
-
-toy_evyth
 ```
 
 
@@ -52,9 +50,11 @@ Creo funcion
 -->
 
 ```{r function-dnmye_colores}
-#' Funcion para extraer colores de la dnmye como colores hex
+#' Funcion para extraer la paleta institucional de la dnmye como colores hex
 #'
-#' @param ... Nombre del color
+#' @param ... Nombre del color. Las posibilidades son *rojo*, *naranja*, *amarillo*,
+#' *verde claro*, *verde_oscuro*, *violeta*, *celeste*, *gris oscuro*, *gris medio*,
+#' y *gris claro*.
 #' @return
 #' Paleta de colores institucionales para la Republica de Argentina
 #' @export

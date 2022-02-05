@@ -4,22 +4,31 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of comunicacion is to ...
+`{comunicacion}` ofrece herramientas que facilitan la visualización de datos en la Dirección Nacional de Mercados y Estadísticas (DNMyE-MINTURDEP)
 
-## Installation
 
-You can install the released version of comunicacion from [CRAN](https://CRAN.R-project.org) with:
+## Instalación
 
+Versión en desarrollo:
 ``` r
-install.packages("comunicacion")
+devtools::install_github("d4t4tur/comunicacion")
 ```
 
-## Example
+## Ejemplos de uso
 
-This is a basic example which shows you how to solve a common problem:
+Estos son ejemplos básicos sobre cómo utilizar las funciones de la librería:
 
-``` r
+### Colores institucionales
+<a><img src='man/figures/paleta_institucional_1.png' height="250" /></a>
+
+<a><img src='man/figures/paleta_institucional_2.png' height="250" /></a>
+
+
+```{r}
 library(comunicacion)
-## basic example code
+
+# Obtengo la paleta completa
+comunicacion::dnmye_colores()
+comunicaion::
 ```
 
