@@ -17,7 +17,7 @@ knitr::opts_chunk$set(
 [![R-CMD-check](https://github.com/d4t4tur/comunicacion/workflows/R-CMD-check/badge.svg)](https://github.com/d4t4tur/comunicacion/actions)
 <!-- badges: end -->
 
-La librería `{comunicacion}` tiene por objetivo facilitar el trabajo de visualización de la información con la que se trabaja en la Dirección Nacional de Mercados y Estadística (DNMyE-MINTURDEP).
+La librería `{comunicacion}` tiene por objetivo facilitar el trabajo de visualización de la información con la que se trabaja en la [Dirección Nacional de Mercados y Estadística](https://www.yvera.tur.ar/estadistica/) (DNMyE-MINTURDEP).
 
 
 ## Installation

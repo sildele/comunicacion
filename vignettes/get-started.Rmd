@@ -1,5 +1,5 @@
 ---
-title: "Get started"
+title: "Usos"
 output: rmarkdown::html_vignette
 vignette: >
   %\VignetteIndexEntry{Get started}
@@ -97,7 +97,9 @@ Creo ejemplos de uso
 
 
 ```{r examples-scale_color_dnmye}
+
 datafile <- system.file("toy_evyth.rds", package = "comunicacion")
+
 toy_evyth <- readRDS(datafile)
 
 toy_evyth %>% 
@@ -116,6 +118,7 @@ toy_evyth %>%
                                group = region_destino)) +
   ggplot2::geom_line() +
   scale_color_dnmye()
+
 ```
 
 <!--
@@ -135,8 +138,11 @@ Creo ejemplos de uso
 
 
 ```{r examples-scale_fill_dnmye}
+
 datafile <- system.file("toy_evyth.rds", package = "comunicacion")
+
 toy_evyth <- readRDS(datafile)
+
 
 toy_evyth %>% 
   dplyr::mutate(region_destino = factor(region_destino, 
