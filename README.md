@@ -6,12 +6,9 @@
 
 <br>
 
-
-## Descripción :speech_balloon:
-
 `{comunicacion}` ofrece herramientas que facilitan la visualización de datos en la Dirección Nacional de Mercados y Estadísticas (DNMyE-MINTURDEP)
 
-### Colores institucionales
+#### Colores institucionales
 <a><img src='man/figures/paleta_institucional_1.png' height="250" /></a>
 
 <a><img src='man/figures/paleta_institucional_2.png' height="250" /></a>
