@@ -44,7 +44,7 @@
   <a href="reference/index.html">Reference</a>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     Articles
      
     <span class="caret"></span>
@@ -76,29 +76,57 @@
 </h1></div>
 <!-- badges: start -->
 <!-- badges: end -->
+<p><br></p>
+<div class="section level2">
+<h2 id="descripción-">Descripción <span class="emoji" data-emoji="speech_balloon">💬</span>
+<a class="anchor" aria-label="anchor" href="#descripci%C3%B3n-"></a>
+</h2>
 <p><a href="https://d4t4tur.github.io/comunicacion">comunicacion</a> ofrece herramientas que facilitan la visualización de datos en la Dirección Nacional de Mercados y Estadísticas (DNMyE-MINTURDEP)</p>
-<div class="section level2">
-<h2 id="instalación">Instalación<a class="anchor" aria-label="anchor" href="#instalaci%C3%B3n"></a>
-</h2>
-<p>Versión en desarrollo:</p>
-<div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="fu">devtools</span><span class="fu">::</span><span class="fu">install_github</span><span class="op">(</span><span class="st">"d4t4tur/comunicacion"</span><span class="op">)</span></code></pre></div>
-</div>
-<div class="section level2">
-<h2 id="ejemplos-de-uso">Ejemplos de uso<a class="anchor" aria-label="anchor" href="#ejemplos-de-uso"></a>
-</h2>
-<p>Estos son ejemplos básicos sobre cómo utilizar las funciones de la librería:</p>
 <div class="section level3">
 <h3 id="colores-institucionales">Colores institucionales<a class="anchor" aria-label="anchor" href="#colores-institucionales"></a>
 </h3>
 <p><a><img src="reference/figures/paleta_institucional_1.png" height="250"></a></p>
 <p><a><img src="reference/figures/paleta_institucional_2.png" height="250"></a></p>
+<p><br></p>
+</div>
+</div>
+<div class="section level2">
+<h2 id="instrucciones-de-instalación-building_construction">Instrucciones de instalación :building_construction:<a class="anchor" aria-label="anchor" href="#instrucciones-de-instalaci%C3%B3n-building_construction"></a>
+</h2>
+<p>Versión en desarrollo:</p>
+<div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span class="fu">devtools</span><span class="fu">::</span><span class="fu">install_github</span><span class="op">(</span><span class="st">"d4t4tur/comunicacion"</span><span class="op">)</span></code></pre></div>
+<p><br></p>
+</div>
+<div class="section level2">
+<h2 id="funciones-test_tube">Funciones :test_tube:<a class="anchor" aria-label="anchor" href="#funciones-test_tube"></a>
+</h2>
+<div class="sourceCode" id="cb2"><pre class="sourceCode R"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1"></a><span class="op">-</span><span class="st"> `</span><span class="dt">dnmye_colores()</span><span class="st">`</span></span>
+<span id="cb2-2"><a href="#cb2-2"></a></span>
+<span id="cb2-3"><a href="#cb2-3"></a><span class="op">-</span><span class="st"> `</span><span class="dt">dnmye_paletas()</span><span class="st">`</span></span>
+<span id="cb2-4"><a href="#cb2-4"></a></span>
+<span id="cb2-5"><a href="#cb2-5"></a><span class="op">-</span><span class="st"> `</span><span class="dt">import_encode()</span><span class="st">`</span></span>
+<span id="cb2-6"><a href="#cb2-6"></a></span>
+<span id="cb2-7"><a href="#cb2-7"></a><span class="op">-</span><span class="st"> `</span><span class="dt">scale_color_dnmye()</span><span class="st">`</span></span>
+<span id="cb2-8"><a href="#cb2-8"></a></span>
+<span id="cb2-9"><a href="#cb2-9"></a><span class="op">-</span><span class="st"> `</span><span class="dt">scale_fill_dnmye()</span><span class="st">`</span></span></code></pre></div>
+<p><br></p>
+</div>
+<div class="section level2">
+<h2 id="modo-de-uso">Modo de uso<a class="anchor" aria-label="anchor" href="#modo-de-uso"></a>
+</h2>
+<p>Estos son ejemplos básicos sobre cómo utilizar las funciones de la librería:</p>
 <pre class="{r}"><code>library(comunicacion)
 
 # Obtengo la paleta completa
 comunicacion::dnmye_colores()
 comunicaion::</code></pre>
 </div>
+<div class="section level2">
+<h2 id="cómo-contribuir-con-el-proyecto-">Cómo contribuir con el proyecto <span class="emoji" data-emoji="twisted_rightwards_arrows">🔀</span>
+<a class="anchor" aria-label="anchor" href="#c%C3%B3mo-contribuir-con-el-proyecto-"></a>
+</h2>
+<p>Para colaborar en este proyecto, se recomienda hacer un Fork, trabajar sobre ese repositorio y, antes de hacer el pull request, correr el <code>devtools::check()</code> para garantizar que no haya conflictos.</p>
 </div>
 </div>
   </div>
