@@ -23,15 +23,13 @@ devtools::install_github("d4t4tur/comunicacion")
 
 ## Funciones :test_tube:
 
-    - `dnmye_colores()`
-    
-    - `dnmye_paletas()`
-    
-    - `import_encode()`
-    
-    - `scale_color_dnmye()`
-    
-    - `scale_fill_dnmye()`
+- **`dnmye_colores()`**: Funcion para extraer los colores institucionales de la dnmye como colores hex
+
+- **`dnmye_paletas()`**: Funcion para extraer paletas de colores colores institucionales de la dnmye como colores hex
+
+- **`scale_color_dnmye()`**: Constructor de escala de colores de contorno (argumento color) para la dnmye
+
+- **`scale_fill_dnmye()`**: Constructor de escala de colores de relleno (argumento fill) para la dnmye
 
 
 ## Modo de uso
